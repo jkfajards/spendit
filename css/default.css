@@ -1,0 +1,53 @@
+h1,
+p,
+ul,
+ol,
+li,
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6 { font-size: inherit; font-weight: normal; margin: 0; }
+table,
+th,
+td {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cfx:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.cfx { min-height: 1px; }
+
+* html .cfx {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
